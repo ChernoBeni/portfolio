@@ -10,7 +10,8 @@ GERAL
 */
 body {
   font-family: josefin-sans, sans-serif;
-  font-style: normal; }
+  font-style: normal;
+  background-color: #f1f1f1; }
 
 a {
   text-decoration: none; }
@@ -66,6 +67,9 @@ nav {
       font-weight: 700;
       color: #f1f1f1; }
 
+/*
+ABOUT
+*/
 #about {
   display: flex;
   justify-content: center;
@@ -87,3 +91,68 @@ nav {
     margin-top: 100px;
     font-size: 2em;
     padding-left: 30px; }
+
+/*
+SERVIÇOS
+*/
+#services {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100%; }
+
+/*
+PROJETOS
+*/
+#projects {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100%; }
+  #projects div.projects {
+    display: flex;
+    width: 80%;
+    margin-top: 100px; }
+  #projects h3 {
+    font-size: 4em;
+    color: #8B0000; }
+  #projects slide {
+    width: 60vw;
+    height: 30vw;
+    border: 10px solid #8B0000;
+    border-radius: 30px;
+    margin-left: 100px; }
+
+/*
+INTRODUÇÃO
+*/
+#contacts {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100%;
+  background-color: #8B0000; }
+  #contacts div.contacts {
+    display: flex;
+    width: 80%;
+    margin-top: 100px; }
+  #contacts h3 {
+    font-size: 4em;
+    color: #f1f1f1; }
+  #contacts div.icons {
+    width: 100%;
+    text-align: center; }
+    #contacts div.icons img {
+      width: 10vw;
+      height: 10vw;
+      border-radius: 100%;
+      margin-left: 20px; }
+
+div.footer {
+  width: 100%;
+  text-align: center;
+  color: #f1f1f1; }
+
+@media screen and (max-width: 1500px) {
+  body {
+    background-color: lightgreen; } }
