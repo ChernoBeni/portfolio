@@ -107,15 +107,14 @@ SERVICES
   display: flex;
   flex-direction: column; }
 
-.serv {
-  margin-top: 50px; }
-  .serv h4 {
-    color: #8B0000;
-    font-size: 3em;
-    text-align: center; }
-  .serv h5 {
-    font-size: 1.5em;
-    text-align: center; }
+.serv h4 {
+  color: #8B0000;
+  font-size: 3em;
+  text-align: center; }
+
+.serv h5 {
+  font-size: 1.5em;
+  text-align: center; }
 
 /*
 PROJETOS
