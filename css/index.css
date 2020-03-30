@@ -11,7 +11,8 @@ GERAL
 body {
   font-family: josefin-sans, sans-serif;
   font-style: normal;
-  background-color: #f1f1f1; }
+  background-color: #f1f1f1;
+  font-size: 16px; }
 
 a {
   text-decoration: none; }
@@ -133,3 +134,28 @@ CONTATOS
     color: #f1f1f1; }
   #contacts p {
     color: #f1f1f1; }
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+  body {
+    font-size: 10px; } }
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  body {
+    font-size: 12px; } }
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 14px; } }
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  body {
+    font-size: 9px; } }
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+  body {
+    font-size: 7px; } }
