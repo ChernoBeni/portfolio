@@ -169,4 +169,14 @@ CONTATOS
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {
   body {
-    font-size: 9px; } }
+    font-size: 9px; }
+  .slide {
+    width: 70vw;
+    height: 90vw;
+    border: 10px solid #8B0000;
+    border-radius: 10px; }
+  img {
+    height: 40vw;
+    width: 32vw;
+    border: 10px solid #8B0000;
+    border-radius: 100%; } }

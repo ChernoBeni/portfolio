@@ -194,4 +194,16 @@ border-radius: 100%;
     body{
         font-size: 9px;
     }
+    .slide {
+  width: 70vw;
+  height: 90vw;
+  border: 10px solid $firstColor;
+  border-radius: 10px;
+}
+img {
+height: 40vw;
+width: 32vw;
+border: 10px solid $firstColor;
+border-radius: 100%;
+}
 }
