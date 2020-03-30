@@ -77,13 +77,13 @@ section {
   justify-content: center; }
   section .flex {
     width: 80%;
-    margin-top: 100px;
     display: flex;
-    flex-direction: row; }
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; }
   section p {
     font-size: 2.3em;
-    color: #8B0000;
-    padding-left: 30px; }
+    color: #8B0000; }
 
 h3 {
   font-size: 3em;
@@ -106,15 +106,30 @@ SERVICES
   flex-direction: column; }
 
 .serv {
-  margin-top: 50px;
-  display: flex;
-  flex-direction: row; }
+  margin-top: 50px; }
   .serv h4 {
     color: #8B0000;
     font-size: 3em;
-    padding-left: 30px;
     text-align: center; }
   .serv h5 {
     font-size: 1.5em;
-    padding-left: 30px;
     text-align: center; }
+
+/*
+PROJETOS
+*/
+.slide {
+  width: 60vw;
+  height: 30vw;
+  border: 10px solid #8B0000;
+  border-radius: 10px; }
+
+/*
+CONTATOS
+*/
+#contacts {
+  background-color: #8B0000; }
+  #contacts h3 {
+    color: #f1f1f1; }
+  #contacts p {
+    color: #f1f1f1; }

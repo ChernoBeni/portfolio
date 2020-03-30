@@ -84,14 +84,14 @@ section {
   justify-content: center;
   .flex {
   width: 80%;
-  margin-top: 100px;
   display:flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
   }
   p {
   font-size: 2.3em;
   color: $firstColor;
-  padding-left: 30px;
   }
 }
 h3 {
@@ -116,17 +116,34 @@ SERVICES
 }
 .serv {
   margin-top: 50px;
-  display:flex;
-  flex-direction: row;
   h4 {
   color: $firstColor;
   font-size: 3em;
-  padding-left: 30px;
   text-align:center;
   }
   h5 {
   font-size: 1.5em;
-  padding-left: 30px;
   text-align:center;
+  }
+}
+/*
+PROJETOS
+*/
+.slide {
+  width: 60vw;
+  height: 30vw;
+  border: 10px solid $firstColor;
+  border-radius: 10px;
+}
+/*
+CONTATOS
+*/
+#contacts{
+background-color: $firstColor;
+  h3 {
+  color: $secondColor;
+  }
+  p {
+  color: $secondColor;
   }
 }
